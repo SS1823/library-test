@@ -1,4 +1,4 @@
-def genSec(String a, String b, def boo) {
+def genSec(String a, String b, boolean boo) {
   echo "a='$a' b='$b'"
 }
 
