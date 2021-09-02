@@ -3,7 +3,7 @@ def genSec(String a, String b, boolean boo) {
   sh "env | grep MYENV"
 }
 
-def myClosure(String a, CLosure b) {
+def myClosure(String a, Closure b) {
   withEnv(["MYENV=$a"]) {
     b()
   }
