@@ -4,9 +4,9 @@ def genSec(String a, String b, def boo) {
 
 def call(Map args){
   echo "called by Map"
-  args.s.each{ genSec(it.a, it.b, isUnix()) }
+  args.s.each{ getSec.genSec(it.a, it.b, isUnix()) }
 }
 def call(List args){
   echo "called by list"
-  args.each{ genSec(it.a, it.b, isUnix()) }
+  args.each{ getSec.genSec(it.a, it.b, isUnix()) }
 }
